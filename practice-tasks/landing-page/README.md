@@ -1,12 +1,57 @@
-# React + Vite
+# 🏠 Landing Page – React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Landing Page** built with **React JS** and **React Bootstrap**.  
+This project is part of my React JS practice series, focusing on **component-based UI design** and **responsive layouts**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Responsive design for desktop and mobile
+- Navigation bar with smooth scrolling
+- Hero section with a clear call-to-action
+- Services/Features showcase section
+- Footer with contact and social links
+- Styled using **React Bootstrap** components
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- **React JS** – Component-based UI library
+- **React Bootstrap** – Pre-styled responsive components
+- **JavaScript (ES6+)**
+
+---
+
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Mavia-Ahmed/practice-task.git
+```
+
+### 2️⃣ Navigate to the landing-page folder
+```
+cd practice-task/landing-page
+```
+
+### 3️⃣ Install dependencies
+```
+npm install
+```
+
+### 4️⃣ Start the development server
+```
+npm start
+```
+
+
+## 🎯 Learning Objectives
+- Practice React component structure
+- Use React Bootstrap for quick UI building
+- Understand responsive design principles
+- Work with reusable components for scalability
+
+
+## 📜 License
+This project is open-source and available under the MIT License.
