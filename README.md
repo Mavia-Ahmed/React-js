@@ -4,6 +4,7 @@ This repository contains my React JS learning journey, including **practice task
 It is organized into two main folders:
 
 ## 📂 Folder Structure
+```
 React-js/
 │
 ├── 📁 practice-tasks
@@ -14,7 +15,7 @@ React-js/
 │ ├── COMMING SOON
 │
 └── README.md
-
+```
 
 ---
 
