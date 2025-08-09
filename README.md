@@ -23,7 +23,7 @@ React-js/
 
 ### 1️⃣ Clone the repository
 ```
-git clone https://github.com/your-username/react-practice-repo.git
+git clone https://github.com/Mavia-Ahmed/React-js.git
 ```
 
 ### 1️⃣ Navigate into the folder
