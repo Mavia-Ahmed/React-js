@@ -1,12 +1,62 @@
-# React + Vite
+# 📚 Multiple Pages React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project demonstrating **multiple pages** using **react-router-dom** for navigation — without using React Bootstrap.  
+This project showcases page routing and clean component structure.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- **Multiple Pages**: Home, About, Contact, and more.
+- **Navigation with react-router-dom**: Fast client-side routing.
+- **Reusable Components**: Header, Footer, etc.
+- **Responsive Layout**: Works on desktop & mobile.
+- **No UI Library**: Fully custom styles using CSS.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React** (v18+)
+- **react-router-dom** (v6+)
+- **CSS3** (custom styling)
+- **JavaScript (ES6+)**
+
+---
+
+## 📂 Project Structure
+```
+│── public/ # pictures/images
+│── src/
+│ │── components/ # Reusable UI components (Home, About, Contact, etc.)
+│ │── App.js # Main app component
+│ │── index.js # Entry point
+│ └── App.css # Global styles
+│── package.json
+└── README.md
+```
+
+
+
+---
+
+## 📦 Installation & Setup
+## Clone the repository
+   ```bash
+   git clone https://github.com/your-username/multiple-pages-react.git
+   cd multiple-pages-react
+```
+
+
+## Install dependencies
+```
+npm install
+```
+
+
+## Run the project
+```
+npm start
+```
+
+
+## 📜 License
+This project is licensed under the MIT License.
