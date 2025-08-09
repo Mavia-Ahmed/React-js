@@ -41,14 +41,22 @@ This project showcases page routing and clean component structure.
 ## 📦 Installation & Setup
 ## Clone the repository
    ```bash
-   git clone https://github.com/your-username/multiple-pages-react.git
-   cd multiple-pages-react
+   git clone https://github.com/Mavia-Ahmed/React-js/practice-tasks/multiple-pages/.git
+```
+
+
+## Get into folder
+```
+cd multiple-pages
 ```
 
 
 ## Install dependencies
 ```
 npm install
+```
+```
+npm install react-router-dom
 ```
 
 
