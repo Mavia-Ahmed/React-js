@@ -30,12 +30,12 @@ A small multi-page application using components, props and React Router for navi
 ## 🚀 How to Run
 1. Clone the repository:
    ```
-   git clone https://github.com/Mavia-Ahmed/practice-task.git
+   git clone https://github.com/Mavia-Ahmed/practice-tasks.git
    ```
    
 2. Navigate to the specific task folder:
    ```
-   cd landing-pagE
+   cd landing-page
    ```
 3. Install dependencies:
    ```
