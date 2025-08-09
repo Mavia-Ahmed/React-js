@@ -27,7 +27,7 @@ This project is part of my React JS practice series, focusing on **component-bas
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/Mavia-Ahmed/practice-task.git
+git clone https://github.com/Mavia-Ahmed/React-js/tree/main/practice-tasks/landing-page.git
 ```
 
 ### 2️⃣ Navigate to the landing-page folder
@@ -55,3 +55,4 @@ npm start
 
 ## 📜 License
 This project is open-source and available under the MIT License.
+
