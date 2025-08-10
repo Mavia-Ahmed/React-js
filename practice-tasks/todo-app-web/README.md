@@ -60,3 +60,6 @@ npm start
 - Implement CRUD-like operations (Add, Delete, Update)
 - Apply conditional rendering & styling
 
+
+## 📜 License
+This project is open-source and available under the MIT License.
