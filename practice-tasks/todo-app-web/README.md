@@ -1,65 +1,12 @@
-# ✅ To-Do List App (React)
+# React + Vite
 
-A simple **To-Do List App** built with **React**.  
-This app allows users to add, delete, and mark tasks as complete.  
-It's part of my React JS learning journey and focuses on **state management** and **component-based architecture**.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## ✨ Features
-- ➕ **Add new tasks** using an input form
-- ❌ **Delete tasks** with a single click
-- ☑ **Mark tasks as complete** using a checkbox (strikes through text)
-- 📱 Responsive & clean UI with basic CSS
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## 🛠 Tech Stack
-- **React** (Functional Components & Hooks)
-- **JavaScript (ES6+)**
-- **CSS3** for styling
-
----
-
-## 📂 Project Structure
-```
-src/
-│── App.jsx # Main app component
-│── Table.jsx # Displays each task row
-│── Addstudent.jsx # Input form for adding tasks
-│── data.js # Initial task data
-│── app.css # Styles
-```
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the repository
-```
-git clone https://github.com/Mavia-Ahmed/React-js/practice-tasks/todo-app-web.git
-```
-
-### 2️⃣ Navigate into the project folder
-```
-cd todo-app-web
-```
-
-### 3️⃣ Install dependencies
-```
-npm install
-```
-
-### 4️⃣ Start the development server
-```
-npm start
-```
-
-
-## 🎯 Learning Objectives
-- Learn state management with useState
-- Pass data between components via props
-- Implement CRUD-like operations (Add, Delete, Update)
-- Apply conditional rendering & styling
-
-
-## 📜 License
-This project is open-source and available under the MIT License.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
