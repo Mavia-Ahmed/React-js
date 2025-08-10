@@ -22,13 +22,14 @@ It's part of my React JS learning journey and focuses on **state management** an
 ---
 
 ## 📂 Project Structure
+```
 src/
 │── App.jsx # Main app component
 │── Table.jsx # Displays each task row
 │── Addstudent.jsx # Input form for adding tasks
 │── data.js # Initial task data
 │── app.css # Styles
-
+```
 
 ## 🚀 Getting Started
 
