@@ -52,3 +52,13 @@ npm install
 ```
 npm start
 ```
+
+
+🎯 Learning Objectives
+Learn state management with useState
+
+Pass data between components via props
+
+Implement CRUD-like operations (Add, Delete, Update)
+
+Apply conditional rendering & styling
