@@ -1,4 +1,3 @@
-/*
 import MyNavbar from './components/Navbar';
 import CarouselComponent from './components/CarouselComponent';
 import CardSection from './components/CardSection';
@@ -27,31 +26,16 @@ const slides = [
 
 
 
-
-
-yeh div kay andar ayega
-<MyNavbar />
+function App() {
+ return (
+    <div>
+      <MyNavbar />
       <CarouselComponent slides={slides} />
       <CardSection />
       <Footer />
-*/
-
-
-import React, { useState } from "react";
-import Navbar from "./Nav";
-import Home from "./Home";
-import Contact from "./Contact";
-
-function App() {
-  const [page, setPage] = useState("home");
-
-  return (
-    <div>
-      <Navbar onChangePage={setPage} />
-      {page === "home" && <Home />}
-      {page === "contact" && <Contact />}
     </div>
   );
 }
 
 export default App;
+
