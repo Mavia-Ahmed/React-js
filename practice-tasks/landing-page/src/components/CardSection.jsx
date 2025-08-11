@@ -6,17 +6,17 @@ const CardSection = () => {
   const cards = [
     {
       title: 'Card 1',
-      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit',
       img: '/hero.jpg',
     },
     {
       title: 'Card 2',
-      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit',
       img: '/hero2.webp',
     },
     {
       title: 'Card 3',
-      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit',
       img: '/hero3.webp',
     },
   ];
@@ -35,3 +35,4 @@ const CardSection = () => {
 };
 
 export default CardSection;
+
