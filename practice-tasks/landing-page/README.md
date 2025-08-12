@@ -3,6 +3,11 @@
 A responsive **Landing Page** built with **React JS** and **React Bootstrap**.  
 This project is part of my React JS practice series, focusing on **component-based UI design** and **responsive layouts**.
 
+
+![Homepage Screenshot](public/landingPage1.png)
+![Homepage Screenshot](public/landingPage2.png)
+
+
 ---
 
 ## ✨ Features
@@ -55,4 +60,5 @@ npm start
 
 ## 📜 License
 This project is open-source and available under the MIT License.
+
 
