@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logoWhite from './src/assets/logo-white.png';
+import logoWhite from '../assets/logo-white.png';
 
 const Navbar = () => {
   return (
@@ -17,4 +17,5 @@ const Navbar = () => {
 
 
 export default Navbar;
+
 
