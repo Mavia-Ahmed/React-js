@@ -3,6 +3,8 @@
 A simple React project demonstrating **multiple pages** using **react-router-dom** for navigation — without using React Bootstrap.  
 This project showcases page routing and clean component structure.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://react-js-mauve-ten.vercel.app/)
+
 ---
 
 ## 🚀 Features
