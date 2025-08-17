@@ -42,7 +42,7 @@ src/
 
 ### 1️⃣ Clone the repository
 ```
-git clone https://github.com//Mavia-Ahmed/React-js/practice-tasks/todo-app-web.git
+git clone https://github.com//Mavia-Ahmed/React-js/practice-tasks/todo-app.git
 ```
 
 ### 2️⃣ Navigate into the project folder
