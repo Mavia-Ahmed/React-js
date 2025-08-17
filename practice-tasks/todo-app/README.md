@@ -14,6 +14,7 @@ It's part of my React JS learning journey and focuses on **state management** an
 ## ✨ Features
 - ➕ **Add new tasks** using an input form
 - ❌ **Delete tasks** with a single click
+- ✏️ Edit tasks inline or via input field
 - ☑ **Mark tasks as complete** using a checkbox (strikes through text)
 - 📱 Responsive & clean UI with basic CSS
 
@@ -64,9 +65,9 @@ npm start
 
 
 ## 🎯 Learning Objectives
-- Learn state management with useState
+- Learn state management with useState, useEffect
 - Pass data between components via props
-- Implement CRUD-like operations (Add, Delete, Update)
+- Implement CRUD-like operations (Add, Delete, Edit, Update)
 - Apply conditional rendering & styling
 
 
