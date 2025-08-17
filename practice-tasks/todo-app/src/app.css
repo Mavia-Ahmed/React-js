@@ -1,0 +1,115 @@
+/* Body background and font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main Card */
+.centring {
+  background: #fff;
+  width: 500px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+/* Heading */
+.centring h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input */
+.put {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.put:focus {
+  border-color: #667eea;
+}
+
+/* Buttons (base style) */
+button {
+  border: none;
+  outline: none;
+  padding: 8px 14px;
+  margin-left: 6px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* Add / Update Button */
+.btn2 {
+  background: #28a745;
+}
+
+.btn2:hover {
+  background: #218838;
+}
+
+/* Edit Button */
+.btn1 {
+  background: #007bff;
+}
+
+.btn1:hover {
+  background: #0056b3;
+}
+
+/* Delete Button */
+.btn {
+  background: #dc3545;
+}
+
+.btn:hover {
+  background: #a71d2a;
+}
+
+/* Table */
+.box {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.box td {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Checkbox row style */
+tr {
+  border-bottom: 1px solid #eee;
+}
+
+/* Completed Task style */
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
