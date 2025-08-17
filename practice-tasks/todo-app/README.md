@@ -3,7 +3,8 @@
 A simple **To-Do List App** built with **React**.  
 This app allows users to add, delete, and mark tasks as complete.  
 It's part of my React JS learning journey and focuses on **state management** and **component-based architecture**.  
-https://react-js-vkuh.vercel.app/
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://react-js-vkuh.vercel.app/)
 
 
 
