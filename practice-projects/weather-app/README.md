@@ -1,12 +1,92 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based weather application that fetches real-time weather data using the [OpenWeather API](https://openweathermap.org/api).  
+The app allows users to search for any city and displays current weather details such as temperature, humidity, wind speed, and weather conditions.
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://react-js-8o2v.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Search weather by city name.  
+- Real-time weather data from OpenWeather API.  
+- Displays:  
+  - City and country  
+  - Temperature (°C)  
+  - Weather description  
+  - Humidity  
+  - Wind speed  
+- Responsive and user-friendly UI.
+
+---
+
+## Technologies Used
+
+- **React** – Frontend framework  
+- **CSS** – Styling  
+- **OpenWeather API** – Weather data provider  
+
+---
+
+## Project Structure
+```
+/weather-app
+│── /src
+│ ├── /components
+│ │ └── Weather.jsx # Component for displaying weather
+│ ├── App.jsx # Main app logic
+│ ├── index.js # Entry point
+│ └── App.css # Styling
+│── package.json
+│── README.md
+```
+
+
+---
+
+## Installation & Setup
+
+1. **Clone the repository**  
+   ```
+   git clone https://github.com/your-username/weather-app.git
+   cd weather-app
+   ```
+
+2. **Install dependencies**
+  ```
+  npm install
+  ```
+3. **Add your API Key**
+-   Create a .env file in the root directory.  
+-   Add your OpenWeather API key:
+  ```
+  REACT_APP_API_KEY=your_api_key_here
+  ```
+4. **Run the application**
+  ```
+  npm start
+  ```
+
+
+## Usage
+
+1. Enter a city name in the search bar.
+2. Press Search.  
+3. View the weather details of the city.
+
+
+## Example
+
+For **Lahore, Pakistan:**
+```
+🌡️ 30°C
+☁️ Clear sky
+💧 Humidity: 50%
+🌬️ Wind: 3 m/s
+```
+
+## License
+
+This project is open-source and free to use.
