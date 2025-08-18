@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Weather from "./Weather";
 
-const API_KEY = REACT_APP_API_KEY; // 👈 apni API key yahan daal do
+const API_KEY = process.env.REACT_APP_API_KEY; // 👈 apni API key yahan daal do
 
 function App() {
   const [city, setCity] = useState("");
