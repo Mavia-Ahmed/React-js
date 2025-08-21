@@ -50,7 +50,7 @@ The app allows users to search for any city and displays current weather details
 
 1. **Clone the repository**  
    ```
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/Mavia-Ahmed/practice-projects/weather-app.git
    cd weather-app
    ```
 
