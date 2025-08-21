@@ -12,7 +12,8 @@ React-js/
 │ ├── multiple-pages/
 │
 ├── 📁 practice-projects
-│ ├── COMMING SOON
+│ ├── todo-app/
+│ ├── weather-app/
 │
 └── README.md
 ```
