@@ -62,11 +62,12 @@ The app allows users to search for any city and displays current weather details
 -   Create a .env file in the root directory.  
 -   Add your OpenWeather API key:
   ```
-  REACT_APP_API_KEY=your_api_key_here
+// App.jsx
+const API_KEY = your_api_key_here
   ```
 4. **Run the application**
   ```
-  npm start
+  npm start or npm run dev
   ```
 
 
