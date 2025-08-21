@@ -11,7 +11,6 @@ practice-task/
 │
 ├── 📁 landing-page/ # Task 1 - Simple Landing Page
 ├── 📁 multiple-pages/ # Task 2 - Multiple Page Website
-├── 📁 todo-web-app/ # Task 2 - Todo list app
 └── README.md # This file
 ```
 
