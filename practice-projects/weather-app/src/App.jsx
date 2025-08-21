@@ -34,7 +34,7 @@ function App() {
           onChange={(e) => setCity(e.target.value)}
           placeholder="Enter city name"
         />
-        <button onClick={fetchWeather}>Get Weather</button>
+        <button onClick={fetchWeather}>check</button>
       </div>
 
       {/* Passing data as props */}
