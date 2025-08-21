@@ -12,6 +12,7 @@ It's part of my React JS learning journey and focuses on **state management** an
 ## ✨ Features
 - ➕ **Add new tasks** using an input form
 - ❌ **Delete tasks** with a single click
+- ✏️ **Edit Task** with a single click
 - ☑ **Mark tasks as complete** using a checkbox (strikes through text)
 - 📱 Responsive & clean UI with basic CSS
 
@@ -42,7 +43,7 @@ src/
 
 ### 1️⃣ Clone the repository
 ```
-git clone https://github.com//Mavia-Ahmed/React-js/practice-tasks/todo-app.git
+git clone https://github.com//Mavia-Ahmed/React-js/practice-projects/todo-app.git
 ```
 
 ### 2️⃣ Navigate into the project folder
