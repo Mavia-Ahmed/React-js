@@ -18,7 +18,7 @@ export const Addstudent = ({ onAddHandler, editName }) => {
   };
 
   return (
-    <div className="box" style={{ marginBottom: "20px" }}>
+    <div className="form-row">
       <input
         className="put"
         type="text"
