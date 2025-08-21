@@ -10,9 +10,9 @@ const Table = ({ item, clickHandler, toggleChecked, onEditHandler }) => {
         />
       </td>
       <td style={{ textDecoration: item.checked ? "line-through" : "none" }}>
-        {item.name}
+        <span className="etem">{item.name}</span>
       </td>
-      <td>
+      <td className="actions">
         <button className="btn1" onClick={() => onEditHandler(item.id, item.name)}><span style={{color: "white", fontWeight: "bold"}}>Edit</span></button>
         <button className="btn" onClick={() => clickHandler(item.id)}><span style={{color: "white", fontWeight: "bold"}}>X</span></button>
       </td>
