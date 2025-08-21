@@ -54,3 +54,6 @@ Follow these steps to run any project locally:
    ```
    npm start or npm run dev
    ```
+
+## License
+This repository is open-source and available for personal and educational use.
