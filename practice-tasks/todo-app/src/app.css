@@ -5,15 +5,16 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 
 /* Main Card */
 .centring {
+  margin-left: 120%;
   background: #fff;
-  width: 500px;
+  width: 150%;
+  max-width: 500px; /* Desktop limit */
   padding: 30px;
   border-radius: 16px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
@@ -21,17 +22,19 @@ body {
   animation: fadeIn 0.7s ease-in-out;
 }
 
-/* Heading */
-.centring h2 {
-  margin-bottom: 20px;
-  font-size: 28px;
-  font-weight: bold;
-  color: #333;
+/* ------------------ Input + Add Button ------------------ */
+.form-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* helps on small screens */
+  margin-bottom: 15px;
 }
 
-/* Input */
 .put {
-  width: 70%;
+  flex: 1;
+  min-width: 150px;
   padding: 10px;
   font-size: 16px;
   border: 2px solid #ddd;
@@ -44,25 +47,25 @@ body {
   border-color: #667eea;
 }
 
-/* Buttons (base style) */
+/* ------------------ Buttons ------------------ */
 button {
   border: none;
   outline: none;
   padding: 8px 14px;
-  margin-left: 6px;
+  margin: 4px;
   border-radius: 8px;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
   color: #fff;
   transition: 0.3s;
+  flex-shrink: 0;
 }
 
 /* Add / Update Button */
 .btn2 {
   background: #28a745;
 }
-
 .btn2:hover {
   background: #218838;
 }
@@ -71,7 +74,6 @@ button {
 .btn1 {
   background: #007bff;
 }
-
 .btn1:hover {
   background: #0056b3;
 }
@@ -80,16 +82,16 @@ button {
 .btn {
   background: #dc3545;
 }
-
 .btn:hover {
   background: #a71d2a;
 }
 
-/* Table */
+/* ------------------ Table (Todos) ------------------ */
 .box {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
   border-collapse: collapse;
+  word-wrap: break-word;
 }
 
 .box td {
@@ -108,8 +110,88 @@ tr {
   color: #888;
 }
 
-/* Animation */
+/* Actions column (Edit + Delete buttons) */
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+/* ------------------ Animation ------------------ */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+/* ------------------ Responsive ------------------ */
+
+/* Tablet devices */
+@media (max-width: 768px) {
+  .centring {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .put {
+    font-size: 15px;
+  }
+
+  button {
+    font-size: 13px;
+    padding: 7px 12px;
+  }
+  .btn2 {
+    font-size: 13px;
+    padding: 7px 12px;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  body {
+    justify-content: center;
+  }
+  .centring {
+  margin-left: 20px;
+  width: 80%;
+    /* Desktop limit */
+  padding: 20px;
+}
+  .form-row {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .put {
+    width: 40%;
+    margin-bottom: 10px;
+  }
+
+  .btn2 {
+    margin-top: -2px;
+    margin-bottom: 10px;
+    width: 20%;
+  }
+  .btn {
+    position: fixed;
+    margin-right: -15px;
+  }
+  .btn1 {
+    position: fixed;
+    margin-right: 20px;
+  }
+  .etem {
+    margin-right: 80px;
+  }
+
+  .actions {
+    flex-direction: row;
+    
+  }
+
+  .box td {
+    font-size: 14px;
+    padding: 8px;
+  }
 }
