@@ -5,6 +5,9 @@ function Card({data}) {
     return(
         <div>
             <img src={data.image} width="100px" height="100px" />
+            <h3>{data.head}</h3>
+            <p>{data.description}</p>
+            <p>{data.date}</p>
         </div>
     );
 }
