@@ -3,7 +3,7 @@
 A simple React-based weather application that fetches real-time weather data using the [OpenWeather API](https://openweathermap.org/api).  
 The app allows users to search for any city and displays current weather details such as temperature, humidity, wind speed, and weather conditions.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://react-js-8o2v.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://weather-app-cpc9.vercel.app)
 
 
 ---
