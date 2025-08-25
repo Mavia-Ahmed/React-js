@@ -22,5 +22,5 @@ Create a React component that displays a list of houses using **components, prop
 ---
 
 ### Example Output:
-![House Listing Screenshot](./public/screenshot.png)
+![House Listing Screenshot](./public/Screenshot.png)
 
