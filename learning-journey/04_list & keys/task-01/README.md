@@ -15,4 +15,4 @@ Requirements:
 7. and please use css for better ui
 
 🎯 Expected Output:
-
+![Student Table Screenshot](./public/data.png)
