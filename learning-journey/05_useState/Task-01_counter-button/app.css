@@ -1,0 +1,14 @@
+.container {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding: 10px 12px;
+  background-color: aqua;
+  width: 115px;
+}
+button {
+  font-size: 20px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
