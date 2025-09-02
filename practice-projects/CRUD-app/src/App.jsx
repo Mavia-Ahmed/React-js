@@ -14,7 +14,7 @@ function App() {
     const [updateId, setUpdateId] = useState(null)   //fro U means update
 
 
-    //from line 1407 to 1441 yeh likha gaya hai post ka data ui par dikhanay kay liye
+    //from line 17 to 51 yeh likha gaya hai post ka data ui par dikhanay kay liye
     const getPosts = async () => {
         try {
             const res = await axios.get("YOUR_MOCK_API_URL")
@@ -50,7 +50,7 @@ function App() {
         }
     }
 
-    //this line is for U means update from 1440 to 1469
+    //this line is for U means update from 53 to 79
     const editHandler = (id, post) => {
         setUpdateId(id)
         setPostTitle(post.postTitle)
@@ -78,7 +78,7 @@ function App() {
         }
     }
 
-    // this part is D means delete form C R U D from 1472 to 1479
+    // this part is D means delete form C R U D from 81 to 89
     const deleteHandler = async (id) => {
         try {
             await axios.delete(`YOUR_MOCK_API_URL/${id}`)
@@ -87,6 +87,7 @@ function App() {
             console.log("error toh phir error hai", error)
         }
     }
+    
     return (
         <div className="container">
             <div>
