@@ -37,7 +37,7 @@ const ExpenseForm = () => {
       <h2>Add Expense</h2>
       <div className="formParent">
         <div className="formchild1">
-          <input type="date" value={date} onChange={(e) => setDate(e.target.value)} required />
+          <input type="date" placeholder="Date" value={date} onChange={(e) => setDate(e.target.value)} required />
           <input type="text" placeholder="Item Name" value={title} onChange={(e) => setTitle(e.target.value)} required />
         </div>
         <div className="formchild2">
