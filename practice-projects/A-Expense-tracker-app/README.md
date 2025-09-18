@@ -47,7 +47,7 @@ Expense-Tracker/
 ## Installation & Setup
 ### Clone repository
 ```
-git clone <repo-url>
+git clone "https://github.com/Mavia-Ahmed/React-js/tree/main/practice-projects/A-Expense-tracker-app"
 cd Expense-Tracker
 ```
 
