@@ -39,3 +39,29 @@ Expense-Tracker/
 │── README.md
 
 ```
+
+
+
+---
+
+## Installation & Setup
+### Clone repository
+```
+git clone <repo-url>
+cd Expense-Tracker
+```
+
+### Install dependencies
+```
+npm install
+```
+
+### Start development server
+```
+npm start
+```
+
+### Open in browser
+```
+http://localhost:3000
+```
