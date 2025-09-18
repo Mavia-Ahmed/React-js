@@ -65,3 +65,20 @@ npm start
 ```
 http://localhost:3000
 ```
+
+
+## Usage
+1. Enter you monthly salary  
+2. Add an expense with date, item and amount  
+3. See all expenses in the table  
+4. Edit or delete any expense  
+5. Remining balance update automatically
+
+
+## Future Enhancements
+- Save data in localStorage
+- Add expense categories (food, travel, bills, etc.)
+- Visual insights with charts
+
+
+
