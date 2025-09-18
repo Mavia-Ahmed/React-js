@@ -1,11 +1,10 @@
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://react-js-6gnl.vercel.app/)
 # Expense Tracker App
 
 ## Overview
 A React-based Expense Tracker that helps manage monthly salary and expenses.  
-Users can add, edit, and delete expenses while keeping track of the remaining balance.
+Users can add, edit, and delete expenses while keeping track of the remaining balance.  
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://react-js-6gnl.vercel.app/)
 
----
 
 ## Features
 - Set monthly salary  
@@ -14,14 +13,12 @@ Users can add, edit, and delete expenses while keeping track of the remaining ba
 - Edit or delete expenses  
 - Automatic balance calculation  
 
----
 
 ## Technologies Used
 - **React** (UI & state management)  
 - **Context API** (global state sharing)  
 - **CSS** (styling)  
 
----
 
 ## Project Structure
 ```
@@ -40,9 +37,6 @@ Expense-Tracker/
 
 ```
 
-
-
----
 
 ## Installation & Setup
 ### Clone repository
@@ -81,4 +75,5 @@ http://localhost:3000
 - Visual insights with charts
 
 
-
+## License
+This project is open-source under the MIT License.
