@@ -24,3 +24,18 @@ Users can add, edit, and delete expenses while keeping track of the remaining ba
 ---
 
 ## Project Structure
+```
+Expense-Tracker/
+│── src/
+│   ├── components/
+│   │   ├── ExpenseForm.jsx
+│   │   ├── ExpenseList.jsx
+│   │   └── SalaryInput.jsx
+│   ├── context/
+│   │   └── ExpenseContext.jsx
+│   ├── App.jsx
+│   └── App.css
+│── package.json
+│── README.md
+
+```
