@@ -1,12 +1,35 @@
-# React + Vite
+# Lumina Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern image gallery built with React and Material UI. It integrates with the Unsplash API to search, explore, and download high-quality photos.  
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Live Demo on Vercel](https://your-vercel-deployment-url.vercel.app)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Browse trending and popular images
+- Search photos by keyword
+- Explore curated tags (Nature, Car, Art, etc.)
+- Light and Dark mode support
+- Image detail modal with photographer info
+- Download images in high resolution
+- Responsive masonry grid layout
+
+## Tech Stack
+
+- **React** (Vite)
+- **Material UI (MUI)**  
+- **Unsplash API**
+- **Axios** for API requests
+- **Context API** for theme management
+- **Vercel** for deployment
+
+## Getting Started
+
+Clone the repository:
+
+```
+git clone https://github.com/Mavia-Ahmed/A-Image-gallery.git
+cd A-Image-gallery
+```
