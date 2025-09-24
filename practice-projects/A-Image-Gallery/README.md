@@ -25,6 +25,26 @@ A modern image gallery built with React and Material UI. It integrates with the 
 - **Context API** for theme management
 - **Vercel** for deployment
 
+## Tech Stack
+```
+src/
+├── components/  
+│   ├── Header.jsx  
+│   ├── Hero.jsx  
+│   ├── SearchBar.jsx  
+│   ├── Tags.jsx  
+│   ├── Gallery.jsx  
+│   ├── PhotoCard.jsx  
+│   ├── ImageModal.jsx  
+│   └── Footer.jsx  
+├── context/  
+│   └── ThemeContext.jsx  
+├── App.jsx  
+├── main.jsx  
+└── index.css
+
+```
+
 ## Getting Started
 
 Clone the repository:
