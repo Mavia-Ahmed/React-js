@@ -4,7 +4,7 @@ A modern image gallery built with React and Material UI. It integrates with the 
 
 ## Demo
 
-
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://react-js-v3qt.vercel.app/)
 
 ## Features
 
