@@ -71,3 +71,18 @@ Build for production:
 ```
 npm run build
 ```
+
+## API Key Setup
+
+This project uses the Unsplash API.
+Replace the demo client_id inside App.jsx with your own Unsplash API key:
+```
+const data = await fetchPhotos(
+  `https://api.unsplash.com/photos?page=1&per_page=30&client_id=YOUR_ACCESS_KEY`
+);
+```
+You can generate a free API key from Unsplash Developers.
+
+## License
+
+This project is licensed under the MIT License.
