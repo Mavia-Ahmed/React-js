@@ -25,7 +25,7 @@ A modern image gallery built with React and Material UI. It integrates with the 
 - **Context API** for theme management
 - **Vercel** for deployment
 
-## Tech Stack
+## Project Structure
 ```
 src/
 ├── components/  
@@ -52,4 +52,22 @@ Clone the repository:
 ```
 git clone https://github.com/Mavia-Ahmed/A-Image-gallery.git
 cd A-Image-gallery
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run development server:
+
+```
+npm run dev
+```
+
+Build for production:
+
+```
+npm run build
 ```
