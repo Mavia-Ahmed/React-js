@@ -4,7 +4,7 @@ A modern image gallery built with React and Material UI. It integrates with the 
 
 ## Demo
 
-🔗 [Live Demo on Vercel](https://your-vercel-deployment-url.vercel.app)
+
 
 ## Features
 
